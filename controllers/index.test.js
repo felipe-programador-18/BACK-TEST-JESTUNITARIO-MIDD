@@ -16,3 +16,19 @@ describe('testing about controllers', () => {
         IndexControllers.Home({}, res)
     })
 } )
+
+
+
+describe('test controllers about way products', ()=> {
+    
+    it('create new routes about product first off all', () => {
+       let res = {
+           send: function () {}
+       }
+       let mock = sinon.mock(res)
+       mock.expects('send').once().withArgs('Welcome my page about my trademarkers')
+       IndexControllers.Produt({}, res)
+
+    })
+
+})
