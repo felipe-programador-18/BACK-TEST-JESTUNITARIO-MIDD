@@ -4,7 +4,12 @@ const Home = (req, res,) => {
     //next('verificando acesso página')
 }
 
+const Produt = (req, res) =>{
+    res.send('Welcome my page about my trademarkers')
+}
+
 
 module.exports= {
-    Home
+    Home,
+    Produt
 }
