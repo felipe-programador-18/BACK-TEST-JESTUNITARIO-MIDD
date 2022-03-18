@@ -1,7 +1,7 @@
 
-const Home = (req, res, next) => {
-    res.render('home')
-    next('verificando acesso página')
+const Home = (req, res,) => {
+    res.send('learning and practice more about test')
+    //next('verificando acesso página')
 }
 
 
